@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+:root{
+	font-size: 16px;
+}
+@font-face {
+	font-family: Round;
+	src: url(../fonts/VarelaRound-Regular.ttf);
+}
+body {
+	background-color: #66878B;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+		user-select: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.main {
+	background-color: #0A0D17;
+	width: 100vw;
+	max-width: 1200px;
+	margin: 0px 15px;
+	border-radius: 20px;
+	font-family: Round;
+	.title {
+		align-items: center;
+		display: flex;
+		.Sign {
+			border:1px solid #5CFFF3;
+			padding:5px 30px;
+			border-radius: 25px;
+			color: #5CFFF3;
+			background-color: #0A0D17;
+		}
+		.Login {
+			color:#5CFFF3;
+		}
+	}
+	.body {
+		padding-top: 50px;
+		.scd_title{
+			color:#5CFFF3;
+			font-weight: 600;
+			font-family: arial;
+		}
+		.Start {
+			background:#5CFFF3;
+			color:#0A0D17;
+			margin-top: 65px;	
+			border: 0;
+			padding: 13px 30px;
+			border-radius: 20px;
+		}
+		.image {
+			background-image:inherit;
+			margin-right: 30px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border:2px solid #5CFFF3;
+			border-radius: 10px;
+		}
+	}
+	.Coin{
+		align-items: center;
+		font-size: 25px;
+		display: flex;
+		padding: 20px;
+		justify-content: center;
+	}
+	.line {
+		border:0.5px solid #5cfff443 ;
+		max-width: 75%;
+		margin: 0 auto;
+		background-color: #5cfff443;
+	}
+}

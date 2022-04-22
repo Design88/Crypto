@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+:root {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: Round;
+  src: url(../fonts/VarelaRound-Regular.ttf);
+}
+
+body {
+  background-color: #66878B;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.main {
+  background-color: #0A0D17;
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0px 15px;
+  border-radius: 20px;
+  font-family: Round;
+}
+
+.main .title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .title .Sign {
+  border: 1px solid #5CFFF3;
+  padding: 5px 30px;
+  border-radius: 25px;
+  color: #5CFFF3;
+  background-color: #0A0D17;
+}
+
+.main .title .Login {
+  color: #5CFFF3;
+}
+
+.main .body {
+  padding-top: 50px;
+}
+
+.main .body .scd_title {
+  color: #5CFFF3;
+  font-weight: 600;
+  font-family: arial;
+}
+
+.main .body .Start {
+  background: #5CFFF3;
+  color: #0A0D17;
+  margin-top: 65px;
+  border: 0;
+  padding: 13px 30px;
+  border-radius: 20px;
+}
+
+.main .body .image {
+  background-image: inherit;
+  margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #5CFFF3;
+  border-radius: 10px;
+}
+
+.main .Coin {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .line {
+  border: 0.5px solid #5cfff443;
+  max-width: 75%;
+  margin: 0 auto;
+  background-color: #5cfff443;
+}
+/*# sourceMappingURL=style.css.map */
